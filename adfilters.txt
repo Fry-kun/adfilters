@@ -1,3 +1,10 @@
+! Title: Fry-kun's personal ad filters
+! Expires: 1 day (update frequency)
+! Description: Filters for random shit I want to make look nicer
+! Homepage: https://github.com/Fry-kun/adfilters
+! Last modified: 
+! Version: 1.0
+
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
 
