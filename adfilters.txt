@@ -1,0 +1,49 @@
+arstechnica.com##.cne-interlude.cne
+||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
+
+fortune.com##.paywallActive:remove-class(paywallActive)
+
+insideevs.com###fixedVideo
+
+latimes.com##.fc-ab-root > .fc-dialog-overlay
+latimes.com##.google-dfp-ad-wrapper
+
+nature.com##.cc-banner
+
+newsweek.com##ul.flex-us
+!www.newsweek.com##.article-videoplayer
+newsweek.com###avantisFrame
+newsweek.com##.article-body > .related
+newsweek.com###sticky-related2
+newsweek.com##.v_text.article-body > .dfp-ad-count.dfp-tag-wrapper
+
+nrgcleanpower.com##.elementor-sticky--effects
+
+nypost.com##.recirc__wrapper
+
+mercurynews.com##.right.related
+mercurynews.com###mobile-adhesion
+mercurynews.com##div.amp-ad-container
+mercurynews.com##i-amphtml-sizer
+!www.mercurynews.com##amp-ad
+
+pv-magazine.com##.pea_cook_bottomcenter.pea_cook_wrapper
+pv-magazine-usa.com##.pea_cook_bottomcenter.pea_cook_wrapper
+pv-magazine-usa.com##.in.fade.modal-backdrop
+
+pressdemocrat.com##.cph-ccpa_banner
+
+sfchronicle.com##.belowMastheadWrapper
+sfchronicle.com##div.adModule--outer.adModule
+
+sfgate.com##.belowMastheadWrapper
+
+tiktok.com##.epicki90.tiktok-j4nq3i-DivTopBannerAB
+tiktok.com##.text-color-TextPrimary.box-border
+
+wsj.com##amp-subscriptions-dialog > .login-section-container > .login-section
+
+finance.yahoo.com##.featurebar-content
+news.yahoo.com###module-featurebar
+news.yahoo.com###module-spotIm > div
+
