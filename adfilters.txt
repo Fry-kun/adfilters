@@ -5,6 +5,10 @@
 ! Last modified: 
 ! Version: 1.0
 
+! Page won't load if this URL is blocked (via Annoyance lists);
+! Cookie element/message is hidden, anyway :)
+@@/cookiemessage.$from=scc.samaritan.com
+
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
 
