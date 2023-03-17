@@ -13,11 +13,15 @@ arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
 
 fortune.com##.paywallActive:remove-class(paywallActive)
+fortune.com##.paywall
+fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
 insideevs.com###fixedVideo
 
 latimes.com##.fc-ab-root > .fc-dialog-overlay
+latimes.com##.fc-ab-root > .fc-dialog-container
 latimes.com##.google-dfp-ad-wrapper
+latimes.com##.page-body:style(overflow: auto !important)
 
 nature.com##.cc-banner
 
