@@ -9,6 +9,11 @@
 ! Cookie element/message is hidden, anyway :)
 @@/cookiemessage.$from=scc.samaritan.com
 
+! Bypass Paywalls Clean filter (magnolia) breaks /subscription/redeem page, following rule works better
+@@||mwcm.nyt.com/$script,domain=nytimes.com
+nytimes.com##+js(json-prune, data.user.messageSelection.input)
+
+
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
 
