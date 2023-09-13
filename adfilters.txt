@@ -21,12 +21,22 @@ fortune.com##.paywallActive:remove-class(paywallActive)
 fortune.com##.paywall
 fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
+geappliances.com###onetrust-consent-sdk
+
 insideevs.com###fixedVideo
 
 latimes.com##.fc-ab-root > .fc-dialog-overlay
 latimes.com##.fc-ab-root > .fc-dialog-container
 latimes.com##.google-dfp-ad-wrapper
 latimes.com##.page-body:style(overflow: auto !important)
+
+mentalfloss.com##.shadow-root-placeholder
+
+mercurynews.com##.right.related
+mercurynews.com###mobile-adhesion
+mercurynews.com##div.amp-ad-container
+mercurynews.com##i-amphtml-sizer
+!www.mercurynews.com##amp-ad
 
 nature.com##.cc-banner
 
@@ -41,17 +51,12 @@ nrgcleanpower.com##.elementor-sticky--effects
 
 nypost.com##.recirc__wrapper
 
-mercurynews.com##.right.related
-mercurynews.com###mobile-adhesion
-mercurynews.com##div.amp-ad-container
-mercurynews.com##i-amphtml-sizer
-!www.mercurynews.com##amp-ad
+pressdemocrat.com##.cph-ccpa_banner
 
 pv-magazine.com##.pea_cook_bottomcenter.pea_cook_wrapper
+pv-magazine.com##.modal-dialog
 pv-magazine-usa.com##.pea_cook_bottomcenter.pea_cook_wrapper
 pv-magazine-usa.com##.in.fade.modal-backdrop
-
-pressdemocrat.com##.cph-ccpa_banner
 
 sfchronicle.com##.belowMastheadWrapper
 sfchronicle.com##div.adModule--outer.adModule
@@ -60,6 +65,10 @@ sfgate.com##.belowMastheadWrapper
 
 tiktok.com##.epicki90.tiktok-j4nq3i-DivTopBannerAB
 tiktok.com##.text-color-TextPrimary.box-border
+
+the-sun.com##.social-box__container
+
+tumblr.com###glass-container
 
 wsj.com##amp-subscriptions-dialog > .login-section-container > .login-section
 
