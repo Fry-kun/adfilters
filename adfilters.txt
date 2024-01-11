@@ -23,6 +23,9 @@ fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
 geappliances.com###onetrust-consent-sdk
 
+# anti-adblock? page loads, then fails with "An unexpected error has occurred."
+goodreads.com/_next/static/chunks/node_vendors~7274e1de.e03a8dc6bdf8ef42cb6a.js
+
 insideevs.com###fixedVideo
 
 latimes.com##.fc-ab-root > .fc-dialog-overlay
