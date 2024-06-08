@@ -21,6 +21,9 @@ fortune.com##.paywallActive:remove-class(paywallActive)
 fortune.com##.paywall
 fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
+# De-emphasize annoying self-promo links
+gamingbible.com##div.article-template_body__dBNt0 a[href^="https://www.gamingbible.com/"]:style(color: inherit !important;)
+
 geappliances.com###onetrust-consent-sdk
 
 # anti-adblock? page loads, then fails with "An unexpected error has occurred."
