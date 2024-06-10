@@ -54,6 +54,8 @@ newsweek.com###avantisFrame
 newsweek.com##.article-body > .related
 newsweek.com###sticky-related2
 newsweek.com##.v_text.article-body > .dfp-ad-count.dfp-tag-wrapper
+# De-emphasize self links
+newsweek.com##.article-body a[href*="newsweek.com/topic"]:style(color: inherit !important;)
 
 nrgcleanpower.com##.elementor-sticky--effects
 
