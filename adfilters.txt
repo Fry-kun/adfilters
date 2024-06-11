@@ -23,7 +23,7 @@ fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
 # Weird overlay on mobile
 gamingbible.com###sp_message_container_906841
-# De-emphasize annoying self-promo links
+# De-emphasize self links
 gamingbible.com##div.article-template_body__dBNt0 a[href^="https://www.gamingbible.com/"]:style(color: inherit !important;)
 
 geappliances.com###onetrust-consent-sdk
@@ -77,6 +77,8 @@ tiktok.com##.epicki90.tiktok-j4nq3i-DivTopBannerAB
 tiktok.com##.text-color-TextPrimary.box-border
 
 the-sun.com##.social-box__container
+# De-emphasize self links
+the-sun.com##.article_content_body a[href*="the-sun.com/"]:style(color: inherit !important;)
 
 tumblr.com###glass-container
 
