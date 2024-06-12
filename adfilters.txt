@@ -24,7 +24,7 @@ fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 # Weird overlay on mobile
 gamingbible.com###sp_message_container_906841
 # De-emphasize self links
-gamingbible.com##div.article-template_body__dBNt0 a[href^="https://www.gamingbible.com/"]:style(color: inherit !important;)
+gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(color: inherit !important;)
 
 geappliances.com###onetrust-consent-sdk
 
@@ -55,7 +55,7 @@ newsweek.com##.article-body > .related
 newsweek.com###sticky-related2
 newsweek.com##.v_text.article-body > .dfp-ad-count.dfp-tag-wrapper
 # De-emphasize self links
-newsweek.com##.article-body a[href*="newsweek.com/topic"]:style(color: inherit !important;)
+newsweek.com##.article-body a[href*="newsweek.com/"]:style(color: inherit !important;)
 
 nrgcleanpower.com##.elementor-sticky--effects
 
