@@ -13,6 +13,11 @@
 @@||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##+js(json-prune, data.user.messageSelection.input)
 
+! De-emphasize self links
+gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
+newsweek.com##.article-body a[href*="newsweek.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
+the-sun.com##.article_content_body a[href*="the-sun.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
+
 
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
@@ -23,8 +28,6 @@ fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
 # Weird overlay on mobile
 gamingbible.com###sp_message_container_906841
-# De-emphasize self links
-gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(color: inherit !important;)
 
 geappliances.com###onetrust-consent-sdk
 
@@ -54,8 +57,6 @@ newsweek.com###avantisFrame
 newsweek.com##.article-body > .related
 newsweek.com###sticky-related2
 newsweek.com##.v_text.article-body > .dfp-ad-count.dfp-tag-wrapper
-# De-emphasize self links
-newsweek.com##.article-body a[href*="newsweek.com/"]:style(color: inherit !important;)
 
 nrgcleanpower.com##.elementor-sticky--effects
 
@@ -77,8 +78,6 @@ tiktok.com##.epicki90.tiktok-j4nq3i-DivTopBannerAB
 tiktok.com##.text-color-TextPrimary.box-border
 
 the-sun.com##.social-box__container
-# De-emphasize self links
-the-sun.com##.article_content_body a[href*="the-sun.com/"]:style(color: inherit !important;)
 
 tumblr.com###glass-container
 
