@@ -14,9 +14,10 @@
 nytimes.com##+js(json-prune, data.user.messageSelection.input)
 
 ! De-emphasize self links
-gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
-newsweek.com##.article-body a[href*="newsweek.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
-the-sun.com##.article_content_body a[href*="the-sun.com/"]:style(color: inherit !important; text-decoration-style: dotted !important;)
+gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(text-decoration-style: dotted !important;)
+jalopnik.com##main a[href*="jalopnik.com/"]:style(text-decoration: dotted underline !important; box-shadow: none !important;)
+newsweek.com##.article-body a[href*="newsweek.com/"]:style(text-decoration-style: dotted !important;)
+the-sun.com##.article_content_body a[href*="the-sun.com/"]:style(text-decoration-style: dotted !important;)
 
 
 arstechnica.com##.cne-interlude.cne
