@@ -14,6 +14,7 @@
 nytimes.com##+js(json-prune, data.user.messageSelection.input)
 
 ! De-emphasize self links
+comicbook.com##article a[href^="/"]:style(text-decoration: dotted underline !important; border: none !important;)
 gamingbible.com##div.article-template_body__dBNt0 a[href*="gamingbible.com/"]:style(text-decoration-style: dotted !important;)
 jalopnik.com##main a[href*="jalopnik.com/"]:style(text-decoration: dotted underline !important; box-shadow: none !important;)
 newsweek.com##.article-body a[href*="newsweek.com/"]:style(text-decoration-style: dotted !important;)
