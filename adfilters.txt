@@ -19,6 +19,7 @@ gamerant.com##article :is(a[href^="/"],a[href*="gamerant.com/"]):style(text-deco
 gamingbible.com##article :is(a[href^="/"],a[href*="gamingbible.com/"]):style(text-decoration-style: dotted !important;)
 jalopnik.com##main :is(a[href^="/"],a[href*="jalopnik.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px; box-shadow: none !important;)
 newsweek.com##article.node :is(a[href^="/"],a[href*="newsweek.com/"]):style(text-decoration-style: dotted !important; text-underline-offset: 2px;)
+sfgate.com##article :is(a[href^="/"],a[href*="sfgate.com/"]):style(text-decoration: dotted underline !important; border: none !important; text-underline-offset: 2px;)
 the-sun.com##article :is(a[href^="/"],a[href*="the-sun.com/"]):style(text-decoration-style: dotted !important; text-underline-offset: 2px;)
 
 
