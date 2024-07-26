@@ -62,8 +62,9 @@ newsweek.com##ul.flex-us
 newsweek.com###avantisFrame
 newsweek.com##.article-body > .related
 newsweek.com###sticky-related2
-newsweek.com###breakingnews-placeholder
 newsweek.com##.v_text.article-body > .dfp-ad-count.dfp-tag-wrapper
+newsweek.com###breakingnews-placeholder
+newsweek.com##header.header-menu-global :style(position: absolute !important;)
 
 nrgcleanpower.com##.elementor-sticky--effects
 
