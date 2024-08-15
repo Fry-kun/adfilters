@@ -18,7 +18,7 @@ businessinsider.com##article :is(a[href^="/"],a[href*="businessinsider.com/"]):s
 comicbook.com##article :is(a[href^="/"],a[href*="comicbook.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px; border: none !important;)
 gamerant.com##article :is(a[href^="/"],a[href*="gamerant.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px; border: none !important;)
 gamingbible.com##article :is(a[href^="/"],a[href*="gamingbible.com/"]):style(text-decoration-style: dotted !important;)
-insideevs.com##div.content :is(a[href^="/"],a[href*="insideevs.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px;)
+insideevs.com##div.content-area-box :is(a[href^="/"],a[href*="insideevs.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px;)
 jalopnik.com##main :is(a[href^="/"],a[href*="jalopnik.com/"]):style(text-decoration: dotted underline !important; text-underline-offset: 2px; box-shadow: none !important;)
 newsweek.com##article.node :is(a[href^="/"],a[href*="newsweek.com/"]):style(text-decoration-style: dotted !important; text-underline-offset: 2px;)
 sfgate.com##article :is(a[href^="/"],a[href*="sfgate.com/"]):style(text-decoration: dotted underline !important; border: none !important; text-underline-offset: 2px;)
