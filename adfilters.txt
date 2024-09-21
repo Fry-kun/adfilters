@@ -89,6 +89,9 @@ tiktok.com##.text-color-TextPrimary.box-border
 
 the-sun.com##.social-box__container
 
+! Sep 21, 2024 https://www.thecooldown.com floating video
+thecooldown.com##.jw-reset.jw-wrapper
+
 tumblr.com###glass-container
 
 wsj.com##amp-subscriptions-dialog > .login-section-container > .login-section
