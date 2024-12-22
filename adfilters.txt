@@ -5,9 +5,9 @@
 ! Last modified: 
 ! Version: 1.0
 
-! Page won't load if this URL is blocked (via Annoyance lists);
-! Cookie element/message is hidden, anyway :)
-@@/cookiemessage.$from=scc.samaritan.com
+! Page won't load if this is blocked
+@@/cookiemessage.$from=scc.samaritan.com    # Cookie element/message is hidden, anyway :)
+@@||curator.io^$3p,domain=impulselabs.com
 
 ! Bypass Paywalls Clean filter (magnolia) breaks /subscription/redeem page, following rule works better
 @@||mwcm.nyt.com/$script,domain=nytimes.com
