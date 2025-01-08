@@ -30,6 +30,8 @@ sfgate.com##article :is(a[href^="/"],a[href*="sfgate.com/"]):style(text-decorati
 the-sun.com##article :is(a[href^="/"],a[href*="the-sun.com/"]):style(text-decoration-style: dashed !important; text-underline-offset: 2px;)
 thecooldown.com##article :is(a[href^="/"],a[href*="thecooldown.com/"]):style(text-decoration-style: dashed !important;)
 
+allstacksdeveloper.com##.fc-dialog-container
+allstacksdeveloper.com##body:style(overflow: auto !important)
 
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
