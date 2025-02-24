@@ -13,6 +13,10 @@
 @@||mwcm.nyt.com/$script,domain=nytimes.com
 nytimes.com##+js(json-prune, data.user.messageSelection.input)
 
+! DMV registration payment won't work without this
+@@||googleoptimize.com/optimize.js$script,domain=dmv.ca.gov
+
+
 ! De-emphasize self links
 businessinsider.com##article :is(a[href^="/"],a[href*="businessinsider.com/"]):style(text-decoration-style: dashed !important;)
 calmatters.org##article :is(a[href^="/"],a[href*="calmatters.org/"]):style(text-decoration-style: dashed !important; text-underline-offset: 2px;)
