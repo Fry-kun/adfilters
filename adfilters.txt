@@ -16,6 +16,10 @@ nytimes.com##+js(json-prune, data.user.messageSelection.input)
 ! DMV registration payment won't work without this
 @@||googleoptimize.com/optimize.js$script,domain=dmv.ca.gov
 
+! Fix referrals.sailinternet.com
+@@||api.getambassador.com/$xhr,domain=referrals.sailinternet.com
+
+
 
 ! De-emphasize self links
 businessinsider.com##article :is(a[href^="/"],a[href*="businessinsider.com/"]):style(text-decoration-style: dashed !important;)
