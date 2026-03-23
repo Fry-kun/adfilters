@@ -63,6 +63,8 @@ latimes.com##.fc-ab-root > .fc-dialog-container
 latimes.com##.google-dfp-ad-wrapper
 latimes.com##.page-body:style(overflow: auto !important)
 
+likesnovel.com##^script:has-text(detectAdblock)
+
 mentalfloss.com##.shadow-root-placeholder
 
 mercurynews.com##.right.related
