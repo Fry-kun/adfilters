@@ -48,15 +48,15 @@ fortune.com##.paywallActive:remove-class(paywallActive)
 fortune.com##.paywall
 fortune.com##.amp-wp-article-content:remove-attr(amp-access-hide)
 
-# Weird overlay on mobile
+! Weird overlay on mobile
 gamingbible.com###sp_message_container_906841
 
 geappliances.com###onetrust-consent-sdk
 
-# Sick of invisible scrollbars
+! Sick of invisible scrollbars
 gemini.google.com##*:style(scrollbar-color: auto !important; scrollbar-width: unset !important;)
 
-# anti-adblock? page loads, then fails with "An unexpected error has occurred."
+! anti-adblock? page loads, then fails with "An unexpected error has occurred."
 goodreads.com/_next/static/chunks/node_vendors~7274e1de.e03a8dc6bdf8ef42cb6a.js
 
 insideevs.com###fixedVideo
@@ -74,12 +74,12 @@ mercurynews.com##.right.related
 mercurynews.com###mobile-adhesion
 mercurynews.com##div.amp-ad-container
 mercurynews.com##i-amphtml-sizer
-!www.mercurynews.com##amp-ad
+! www.mercurynews.com##amp-ad
 
 nature.com##.cc-banner
 
 newsweek.com##ul.flex-us
-!www.newsweek.com##.article-videoplayer
+! www.newsweek.com##.article-videoplayer
 newsweek.com###avantisFrame
 newsweek.com##.article-body > .related
 newsweek.com###sticky-related2
