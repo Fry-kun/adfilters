@@ -53,6 +53,9 @@ gamingbible.com###sp_message_container_906841
 
 geappliances.com###onetrust-consent-sdk
 
+# Sick of invisible scrollbars
+gemini.google.com##*:style(scrollbar-color: auto !important; scrollbar-width: unset !important;)
+
 # anti-adblock? page loads, then fails with "An unexpected error has occurred."
 goodreads.com/_next/static/chunks/node_vendors~7274e1de.e03a8dc6bdf8ef42cb6a.js
 
