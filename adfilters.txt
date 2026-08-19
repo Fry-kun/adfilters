@@ -38,8 +38,15 @@ sfgate.com##article :is(a[href^="/"],a[href*="sfgate.com/"]):style(text-decorati
 the-sun.com##article :is(a[href^="/"],a[href*="the-sun.com/"]):style(text-decoration-style: dashed !important; text-underline-offset: 2px;)
 thecooldown.com##article :is(a[href^="/"],a[href*="thecooldown.com/"]):style(text-decoration-style: dashed !important;)
 
+! Feb 4, 2026 https://www.aliexpress.us
+@@||assets.aliexpress-media.com^$script,domain=aliexpress.us
+@@||assets.alicdn.com^$script,domain=aliexpress.us
+
 allstacksdeveloper.com##.fc-dialog-container
 allstacksdeveloper.com##body:style(overflow: auto !important)
+
+! Aug 7, 2026 https://www.amazon.com -- remove huge space left from Alexa AI
+amazon.com##body:style(padding-left: 12px !important;)
 
 arstechnica.com##.cne-interlude.cne
 ||player.cnevids.com/interlude/arstechnica/iframe/$subdocument
@@ -90,6 +97,9 @@ newsweek.com##header.header-menu-global :style(position: absolute !important;)
 nrgcleanpower.com##.elementor-sticky--effects
 
 nypost.com##.recirc__wrapper
+
+! Aug 19, 2026 Exception to make [logged-in] pages load
+@@||portal.dentaquest.com/*/GoogleAnalytics.js$script,domain=portal.dentaquest.com
 
 pressdemocrat.com##.cph-ccpa_banner
 
